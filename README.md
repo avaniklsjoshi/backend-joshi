@@ -1,4 +1,4 @@
-### Main App for Backend for Joshi App
+### <h1 align="center"> Main App for Backend for Joshi App </h1>
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/fo0HtwcJzNUcOlRdFc/giphy.gif" width="100"/>
