@@ -1,18 +1,49 @@
 {
   "name": "backend-joshi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "backend app for joshi",
+  "main": "src/server.js",
+  "keywords": [],
+  "author": "Avani Joshi",
+  "license": "ISC",
   "scripts": {
+    "lint": "eslint --no-ignore --ext .js src",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "npm run prettier -- --write",
+    "prettier": "prettier \"**/*.+(json|js|md|mdx)\"",
+    "start": "node -r esm src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "lint-staged": {
+    "*.{js}": [
+      "prettier --write",
+      "npm run lint",
+      "eslint --fix --max-warnings 2",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "dependencies": {
+    "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
     "express": "^4.18.1",
-    "mongodb": "^4.8.1"
+    "helmet": "^5.1.1",
+    "mongodb": "^4.8.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^4.3.8",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
   }
 }
