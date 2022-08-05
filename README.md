@@ -1,8 +1,4 @@
-main app for backend to joshi app
-
-npm start
-http://localhost:9000
-http://localhost:9000/record
+###Main App for Backend for Joshi App
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/fo0HtwcJzNUcOlRdFc/giphy.gif" width="100"/>
@@ -37,7 +33,8 @@ http://localhost:9000/record
 
 I am a Frontend Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India, lives in Germany. I am a hands-on learner, hence prefer learning new technologies through development.
 
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications. I aspire to become a Fullstack developer and currently learning DevOps and Backend Architecture.
+- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
+- :seedling:I aspire to become a Fullstack developer and currently learning DevOps and Backend Architecture.
 - :seedling: Exploring new ideas and tech for beautiful projects.
 - :zap: In my free time, I solve problems on GeeksforGeeks and Leetcode.
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Avani-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/joshi-avani/)
@@ -80,6 +77,14 @@ I am a Frontend Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTG
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=avaniklsjoshi&theme=dark&background=000000)](https://git.io/streak-stats)
 <br/>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=avaniklsjoshi&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+
+---
+
+### :woman_technologist: Starting the App :
+
+- npm start
+- http://localhost:9000
+- http://localhost:9000/record
 
 ---
 
