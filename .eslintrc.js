@@ -20,15 +20,9 @@ module.exports = {
     "comma-dangle": 0,
     camelcase: 0,
     "new-cap": 0,
+    "no-tabs": 0,
+    indent: 0,
     "space-before-function-paren": 0,
-    indent: [
-      "error",
-      2,
-      {
-        SwitchCase: 1,
-        ignoredNodes: ["ConditionalExpression"],
-      },
-    ],
     "quote-props": ["error", "as-needed"],
   },
   plugins: ["eslint-plugin-prettier", "prettier"],
