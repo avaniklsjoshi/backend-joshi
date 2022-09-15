@@ -2,10 +2,10 @@
 FROM node:18
 
 # Working directory. "/usr/local/bin/" is what Heroku takes as the "root" folder. Files MUST be added here or they cannot be found!
-WORKDIR /usr/local/bin/backend
+WORKDIR /usr/local/bin/backend-joshi
 
 #Copy the app's source code into the image's filesystem
-COPY . /usr/local/bin/backend/
+COPY . /usr/local/bin/backend-joshi/
 
 #Install the required dependency of expressJs. Runs in container root directory.
 RUN npm install
