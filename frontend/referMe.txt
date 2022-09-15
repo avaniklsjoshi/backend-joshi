@@ -1,0 +1,21 @@
+<h3> Important refer back links- </h3>
+
+- Testing - https://create-react-app.dev/docs/running-tests
+- Readme - https://www.sitepoint.com/github-profile-readme
+- project Ideas - https://hackr.io/blog/react-projects
+- heroku deployment - https://github.com/marketplace/actions/deploy-to-heroku#license, https://devcenter.heroku.com/articles/container-registry-and-runtime#known-issues-and-limitations
+
+
+eye pointer https://www.seanhalpin.design/
+chat bot
+
+css animation
+star in a line https://codepen.io/osorina/pen/PQdMOO
+night star sky https://codepen.io/sarazond/pen/LYGbwj
+square moving up https://codepen.io/Lewitje/pen/BNNJjo
+random circles https://codepen.io/nashvail/pen/wpGgXO
+mouse string connection https://codepen.io/akey96/pen/oNgeQYX
+light house https://codepen.io/alvarotrigo/pen/VwzEPZM
+bubble float https://codepen.io/alphardex/pen/jOWMGON
+
+page title https://codepen.io/giana/embed/qmKNeE?default-tab=result&theme-id=0

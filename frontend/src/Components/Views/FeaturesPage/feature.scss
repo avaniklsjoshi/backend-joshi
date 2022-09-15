@@ -1,0 +1,26 @@
+@import "../../../CommonStyles/variables.scss";
+
+.feature-container {
+  margin: 32px;
+  .feature-title {
+    font-size: $appSubTitleFontSize;
+  }
+  .feature-cards-conatainer {
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+    .feature-card {
+      margin: 48px;
+      .MuiCardHeader-action {
+        align-self: center;
+      }
+      div:first-child {
+        padding: 16px;
+      }
+      .like-share-container {
+        justify-content: flex-end;
+        display: flex;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "../CommonStyles/colors.scss";
+@import "../CommonStyles/variables.scss";
+
+.App {
+  text-align: center;
+  font-family: $appFont;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-section {
+  flex: 1;
+  padding-top: 170px;
+  display: grid;
+}

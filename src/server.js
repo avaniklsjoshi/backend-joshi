@@ -21,6 +21,10 @@ app.use(morgan("combined"));
 // get driver connection
 const dbo = require("./db/conn");
 
+if ((process.env.NODE_ENV = "production")) {
+  app.use(express.static("frontend/build"));
+}
+
 app.listen(port, () => {
   // perform a database connection when server starts
   dbo.connectToServer(function (err) {

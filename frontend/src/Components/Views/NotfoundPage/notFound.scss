@@ -1,0 +1,142 @@
+.page-404 {
+  width: 100%;
+  justify-self: center;
+}
+
+.info {
+  text-align: center;
+  height: 60px;
+  margin: auto;
+  position: absolute;
+  left: 100px;
+  width: 300px;
+  animation: noise-3 1s linear infinite;
+}
+
+.info:before {
+  content: "file not found!";
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 40px;
+  right: 100px;
+  opacity: 0;
+  color: white;
+  animation: noise-2 0.2s linear infinite;
+}
+
+.info:after {
+  content: "file not found!";
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 40px;
+  right: 0;
+  opacity: 0;
+  color: white;
+  animation: noise-1 0.2s linear infinite;
+}
+
+.four-zero-four-bg {
+  background-image: url("../../../Assets/Images/404Error.png");
+  height: 275px;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: noise-1 1s linear infinite;
+  @media only screen and (max-width: 720px) {
+    display: none;
+  }
+}
+.link-404 {
+  color: #fff !important;
+  padding: 8px 12px;
+  background: #39ac31;
+  margin: 20px 0;
+  margin-left: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+.lost-section {
+  margin-top: 80px;
+  @media only screen and (max-width: 720px) {
+    margin-top: 150px;
+  }
+}
+@keyframes noise-1 {
+  0%,
+  20%,
+  40%,
+  60%,
+  70%,
+  90% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+    left: -6px;
+  }
+  80% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.6;
+    left: 2px;
+  }
+}
+
+@keyframes noise-2 {
+  0%,
+  20%,
+  40%,
+  60%,
+  70%,
+  90% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+    left: 6px;
+  }
+  80% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.6;
+    left: -2px;
+  }
+}
+
+@keyframes noise-3 {
+  0%,
+  3%,
+  5%,
+  42%,
+  44%,
+  100% {
+    opacity: 1;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  4.3% {
+    opacity: 1;
+    -webkit-transform: scaleY(4);
+    transform: scaleY(4);
+  }
+  43% {
+    opacity: 1;
+    -webkit-transform: scaleX(10) rotate(60deg);
+    transform: scaleX(10) rotate(60deg);
+  }
+}
